@@ -1,7 +1,11 @@
 class String
 
   def sentence?
-    if puts self.end_with? == 
+    if self.end_with?(.) == true
+      puts true
+    else
+      puts false
+    end
   end
 
   def question?
