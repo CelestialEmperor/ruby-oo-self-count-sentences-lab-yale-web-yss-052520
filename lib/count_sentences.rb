@@ -1,7 +1,7 @@
 class String
 
   def sentence?
-    if self.end_with?(.) == true
+    if self.end_with?() == true
       puts true
     else
       puts false
